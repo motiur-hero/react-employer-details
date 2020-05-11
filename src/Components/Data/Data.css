@@ -1,0 +1,5 @@
+.data-container{display: flex;}
+.info-container{width: 70%;
+    margin: 10px 10px 15px 200px;
+    border-right: 1px solid gray;
+}
