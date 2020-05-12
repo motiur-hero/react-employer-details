@@ -5,9 +5,13 @@ const Header = () => {
     return (
         <div className='header'>
             
-                <img src={logo} alt=''></img>
+                <div><img src={logo} alt=''></img></div>
             
-            <h2>Employer Details</h2>
+            <div className='nav'>
+                <a href='/employe'>Employe</a>
+                <a href='/mothly'>Month Report</a>
+                <a href='/yearly'>Year Report</a>
+            </div>
         </div>
     );
 };

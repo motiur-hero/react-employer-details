@@ -1,4 +1,7 @@
 .header{text-align: center;}
-.header h2 {background-color: aqua;
-color: darkorchid;
+.nav {background-color:black;
+line-height: 40px;
+
 }
+.nav a{text-decoration: none;color: white;margin-right: 15px;padding: 6px;}
+.nav a:hover{background-color: gray;}
